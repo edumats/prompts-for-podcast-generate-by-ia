@@ -26,6 +26,10 @@
     <audio src="output/podcast.mp3" controls title="Podcast editado"></audio>
 </div>
 
+<div align="center">
+<video src="https://github.com/felipeAguiarCode/prompts-for-podcast-generate-by-ia/assets/36085476/275e4109-6cf2-46d2-9c26-f31ce18edfa7"></video>
+</div>
+
 # Projeto Podcast Gerado por I.A.s
 
 Projeto com o objetivo de gerar um podcast utilizando ferramentas de IA através de Prompt Engineering.
