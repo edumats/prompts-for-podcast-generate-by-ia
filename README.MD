@@ -1,6 +1,6 @@
 <p align="center">
 <img 
-    src="./assets/cover.png"
+    src="./assets/_89e0e1c7-2cb9-4325-ba05-e79a64280012.jpg"
     width="300"
 />
 </p>
@@ -19,81 +19,42 @@
 </p>
 
 <p align="center">
-    preview do podcast
+    Escute abaixo o podcast gerado através de Inteligência Artificial
 </p>
 
 <div align="center">
-    <audio src="output/podcast_editado.MP3" controls title="Podcast editado"></audio>
+    <audio src="output/podcast.mp3" controls title="Podcast editado"></audio>
 </div>
 
 # Projeto Podcast Gerado por I.A.s
 
-
- > ℹ️ **NOTE:** Este é o repositório desenvolvido durante uma live no Youtube em parceria com a [DIO](https://dio.me)
-
-Projeto com o objetivo de gerar um podcast utilizando ferramentas de IA através de prompts mais trabalhado.
-
-Utilizer uma esteira de prompts para gerar cada etapa do processo criativo.
+Projeto com o objetivo de gerar um podcast utilizando ferramentas de IA através de Prompt Engineering.
 
 ## 💻 Tecnologias utilizadas no projeto
 
 - [ChatGPT](https://chat.openai.com/) 
-- [MidJourney](https://www.midjourney.com/app/)
+- [DALL-E](https://www.bing.com/images/create)
 - [ElevenLabs](https://beta.elevenlabs.io/)
-- [Capcut](https://www.capcut.com/pt-br/)
 
 ## ✨ Como foi feito ?
 
-- Roteiro gerado via chatgpt
-- Audio gerado pela elevenLabs
-- Midjourney Para gerar capas
-- Capcut para tratar aúdio e adicionar sons de fundo
+- Roteiro gerado via ChatGPT
+- Áudio gerado pela ElevenLabs a partir do roteiro escrito
+- DALL-E para gerar imagem de capa
 
 ## 📚 Materiais
 
-- [Link da live no Youtube](https://www.youtube.com)
-- [Notion Template](https://helpful-jump-17b.notion.site/PAS-Podcast-AI-Studio-210489e15d7a4a73b743bb159e45d06f?pvs=4)
-- [Editor de aúdio](https://www.capcut.com/editor?from_page=landing_page&__action_from=picture_V%C3%ADdeos%20profissionais%20em%20minutos,%20n%C3%A3o%20em%20horas.)
+
+|         | Prompt                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                        |
+|---------|-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| DALL-E  | Create a hand drawn impressionist image that depicts a python snake and programing code. The python snake is interacting with the code in some way                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                            |
+| ChatGPT | Seja um roteirista de podcast. Você deve criar um roteiro para um podcast de tecnologia, chamado "Código Serpente", que tem como tema a linguagem Python e será apresentada por uma garota chamada Sara. O primeiro episódio será sobre código pythônico, o que são e exemplos do que fazer e o que não fazer para que um código seja considerado pythônico e sobretudo, belo, fácil de entender e resistente a erros. O roteiro deve ser criado no seguinte formato e deve ter 5 minutos no total. Use termos simples e que sejam fácilmente compreendidos por um iniciante da programação e não dê exemplos em forma de código, pois são difíceis de serem entendidos quando são falados por uma voz: - Introdução: Seja animado e apresente o podcast e o assunto do episódio para os ouvintes no estilo de Raymond Hettinger, guru de Python - O que é um código pythônico e quais as vantagens de se adotar um estilo pythônico no código? - Vamos falar de loops: Fale das diferenças entre um loop sobre uma lista considerado pythônico e outro que não seja pythônico - Vamos falar de loops qure precisam de um index: Como evitar códigos não pythônicos com enumerate - Finalizando: Faça uma despedida divertida |
 
 
 ## 🛠️ Instruções de execução
 
-Utilize os prompts dentro do link do `Notion` fornecido na parte de `Materiais` para criar um podcast de maneira automatizada, para isso siga o passo a passo abaixo.
+Utilize os prompts fornecidos na parte de `Materiais` para criar um podcast de maneira automatizada, para isso siga o passo a passo abaixo.
 
 - 🤖 1. Use os prompts de roteiro no `chagpt`
 - 🤖 2. Use os prompts de roteiro gerados pelo chatgpt no  `ElevenLabs`
-- 🤖 3. Use os prompts de artes no `midjourney`
-
-## 👨‍💻 Expert
-
-<p>
-    <img 
-      align=left 
-      margin=10 
-      width=80 
-      src="https://avatars.githubusercontent.com/u/37452836?v=4"
-    />
-    <p>&nbsp&nbsp&nbspFelipe Aguiar<br>
-    &nbsp&nbsp&nbsp
-    <a 
-        href="https://github.com/felipeAguiarCode">
-        GitHub
-    </a>
-    &nbsp;|&nbsp;
-    <a 
-        href="www.linkedin.com/in/felipe-exe">
-        LinkedIn
-    </a>
-    &nbsp;|&nbsp;
-    <a 
-        href="https://www.instagram.com/felipeaguiar.exe/">
-        Instagram
-    </a>
-    &nbsp;|&nbsp;</p>
-</p>
-<br/><br/>
-<p>
-
----
-
-⌨️ com 💜 por [Felipe Aguiar](https://github.com/felipeAguiarCode)
+- 🤖 3. Use os prompts de artes no `DALL-E`
